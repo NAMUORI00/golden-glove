@@ -1,0 +1,33 @@
+<svg width="1280" height="260" viewBox="0 0 1280 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="왼손과 오른손 장갑의 플렉스 센서 값을 ESP32가 0에서 3 단계로 바꿔 0.1초마다 블루투스로 보내고, MIT App Inventor 앱이 양손 값을 받아 음을 재생한다.">
+<title>Golden Glove 동작 흐름</title>
+<rect x="60.0" y="30.0" width="270.0" height="84.0" rx="14" fill="none" stroke="#7d8590" stroke-opacity="0.6" stroke-width="1.6"/>
+<g transform="translate(76.0,60.0) scale(1.000)" stroke="#7d8590" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M12,10 a2,2 0 1 0 0.01,0 z M7.8,7.8 a6,6 0 0 0 0,8.4 M16.2,7.8 a6,6 0 0 1 0,8.4 M4.9,4.9 a10,10 0 0 0 0,14.2 M19.1,4.9 a10,10 0 0 1 0,14.2"/></g>
+<text x="215.0" y="61.0" fill="#7d8590" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">왼손 장갑</text>
+<text x="215.0" y="86.0" fill="#7d8590" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">플렉스 센서 5개, ESP32</text>
+<rect x="60.0" y="146.0" width="270.0" height="84.0" rx="14" fill="none" stroke="#7d8590" stroke-opacity="0.6" stroke-width="1.6"/>
+<g transform="translate(76.0,176.0) scale(1.000)" stroke="#7d8590" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M12,10 a2,2 0 1 0 0.01,0 z M7.8,7.8 a6,6 0 0 0 0,8.4 M16.2,7.8 a6,6 0 0 1 0,8.4 M4.9,4.9 a10,10 0 0 0 0,14.2 M19.1,4.9 a10,10 0 0 1 0,14.2"/></g>
+<text x="215.0" y="177.0" fill="#7d8590" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">오른손 장갑</text>
+<text x="215.0" y="202.0" fill="#7d8590" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">플렉스 센서 5개, ESP32</text>
+<rect x="420.0" y="88.0" width="250.0" height="84.0" rx="14" fill="none" stroke="#7d8590" stroke-opacity="0.6" stroke-width="1.6"/>
+<g transform="translate(436.0,118.0) scale(1.000)" stroke="#7d8590" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M13,2 l-9,12 h7 l-1,8 l9,-12 h-7 z"/></g>
+<text x="565.0" y="119.0" fill="#7d8590" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">블루투스 SPP</text>
+<text x="565.0" y="144.0" fill="#7d8590" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">굽힘 0~3 단계, 0.1초마다</text>
+<path d="M330.0,72.0 L375.0,72.0 L375.0,130.0 L414.0,130.0" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M406.1,134.2 L414.0,130.0 L406.1,125.8" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M330.0,188.0 L375.0,188.0 L375.0,130.0" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M379.2,137.9 L375.0,130.0 L370.8,137.9" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="490.0" y="192.0" width="110.0" height="28.0" rx="14.0" fill="none" stroke="#7d8590" stroke-opacity="0.7" stroke-width="1.2"/>
+<text x="545.0" y="207.0" fill="#7d8590" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace">1,0,2,3,0/</text>
+<rect x="760.0" y="88.0" width="230.0" height="84.0" rx="14" fill="none" stroke="#2f81f7" stroke-opacity="0.9" stroke-width="1.8"/>
+<g transform="translate(776.0,118.0) scale(1.000)" stroke="#2f81f7" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M7,1 h10 a2,2 0 0 1 2,2 v18 a2,2 0 0 1 -2,2 h-10 a2,2 0 0 1 -2,-2 v-18 a2,2 0 0 1 2,-2 z M10,19 h4"/></g>
+<text x="895.0" y="119.0" fill="#2f81f7" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">연주 앱</text>
+<text x="895.0" y="144.0" fill="#7d8590" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">MIT App Inventor</text>
+<path d="M670.0,130.0 L754.0,130.0" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M746.1,134.2 L754.0,130.0 L746.1,125.8" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1040.0" y="88.0" width="200.0" height="84.0" rx="14" fill="none" stroke="#7d8590" stroke-opacity="0.6" stroke-width="1.6"/>
+<g transform="translate(1056.0,118.0) scale(1.000)" stroke="#7d8590" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M9,18 V5 l12,-2 v13 M9,18 a3,3 0 1 1 -0.01,0 z M21,16 a3,3 0 1 1 -0.01,0 z"/></g>
+<text x="1160.0" y="119.0" fill="#7d8590" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">음 재생</text>
+<text x="1160.0" y="144.0" fill="#7d8590" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">도부터 높은 도까지</text>
+<path d="M990.0,130.0 L1034.0,130.0" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1026.1,134.2 L1034.0,130.0 L1026.1,125.8" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
